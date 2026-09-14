@@ -3,50 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人简介</title>
-   <style>
-    * {
+    <title>Document</title>
+    <style>
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
         body {
-            width: 600px;
-            height: 600px;
-            text-align: center;
+            background-color: #f7f8fa;
             font-family: "SimSun", serif;
-            background-color: #ffffff;
-            max-width: 1200px;
-            margin: 10px auto;
-            padding: 0 20px;
+            padding: 40px 20px;
         }
-        #jieshao{
-color: black;
-margin:0  auto;
+        .wrap {
+            max-width: 420px;
+            margin: 0 auto;
         }
-
-img{
-            max-width: 400px;
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 24px;
+        }
+        .photo {
             width: 100%;
-            height: auto;
-            margin: 10px 0;
+            border-radius: 12px;
+            margin-bottom:24px ;
         }
-
-   </style>
-     
+        .divider {
+            width: 430px;
+            height: 2px;
+            background-color: #4472c4;
+            margin-bottom:0 auto 24px auto;
+        }
+      .info p {
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+}
+    </style>
 </head>
 <body>
-    <div id="jieshao">
-    <h1>梁静诗</h1>
-
-<img src="me.jpg" alt="梁静诗的照片">
-
-    <p>班级：25大模型应用开发班</p>
-    <p>学号：0120250266</p>
-    <p> 年龄：19</p>
-    <p>家乡：广东肇庆</p>
-    <p>爱好：唱歌 阅读 </p>
-    <p>性格:开朗 人前i人 熟了很活泼</p>
-   </div>
+    <div class="wrap">
+        <h1>梁静诗</h1>
+        <img class="photo" src="me.jpg" alt="照片">
+        <div class="divider"></div>
+        <div class="info">
+            <p>班级：25大模型应用开发班</p>
+            <p>学号：0120250266</p>
+            <p>年龄：19</p>
+            <p>家乡：广东肇庆</p>
+            <p>爱好：唱歌 阅读</p>
+            <p>性格：开朗 人前i人 熟了很活泼</p>
+        </div>
+    </div>
 </body>
 </html>
